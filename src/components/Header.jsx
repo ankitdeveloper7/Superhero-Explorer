@@ -18,10 +18,14 @@ export function Header() {
           </div>
 
           <div className="hidden sm:flex items-center gap-4">
-            <button className="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl hover:bg-white/30 transition-all duration-200">
+            <a
+              className="flex items-center cursor-pointer gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-xl hover:bg-white/30 transition-all duration-200"
+              href="https://github.com/ankitdeveloper7/Superhero-Explorer"
+              target="_blank"
+            >
               <Github className="w-5 h-5" />
               <span>GitHub</span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
